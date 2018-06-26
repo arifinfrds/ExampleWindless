@@ -52,6 +52,48 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		92AA551F20E1DB5D00F4B60A /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				92B9DA8320E1CBE3001F5D37 /* ViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		92AA552020E1DB6C00F4B60A /* view */ = {
+			isa = PBXGroup;
+			children = (
+				92B9DA8520E1CBE3001F5D37 /* Main.storyboard */,
+				92B9DA8820E1CBE4001F5D37 /* Assets.xcassets */,
+				92B9DA8A20E1CBE4001F5D37 /* LaunchScreen.storyboard */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		92AA552120E1DB7500F4B60A /* model */ = {
+			isa = PBXGroup;
+			children = (
+				926F28C220E1D3E500690EA2 /* Photo.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		92AA552220E1DB7C00F4B60A /* service */ = {
+			isa = PBXGroup;
+			children = (
+				92B9DA9320E1D2B8001F5D37 /* NetworkManager.swift */,
+			);
+			path = service;
+			sourceTree = "<group>";
+		};
+		92AA552320E1DB8900F4B60A /* supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				92B9DA8120E1CBE3001F5D37 /* AppDelegate.swift */,
+			);
+			path = "supporting files";
+			sourceTree = "<group>";
+		};
 		92B9DA7520E1CBE3001F5D37 = {
 			isa = PBXGroup;
 			children = (
@@ -73,14 +115,12 @@
 		92B9DA8020E1CBE3001F5D37 /* Example Windless */ = {
 			isa = PBXGroup;
 			children = (
-				92B9DA8120E1CBE3001F5D37 /* AppDelegate.swift */,
-				92B9DA8320E1CBE3001F5D37 /* ViewController.swift */,
-				92B9DA8520E1CBE3001F5D37 /* Main.storyboard */,
-				92B9DA8820E1CBE4001F5D37 /* Assets.xcassets */,
-				92B9DA8A20E1CBE4001F5D37 /* LaunchScreen.storyboard */,
+				92AA552320E1DB8900F4B60A /* supporting files */,
+				92AA552220E1DB7C00F4B60A /* service */,
+				92AA552120E1DB7500F4B60A /* model */,
+				92AA552020E1DB6C00F4B60A /* view */,
+				92AA551F20E1DB5D00F4B60A /* controller */,
 				92B9DA8D20E1CBE4001F5D37 /* Info.plist */,
-				92B9DA9320E1D2B8001F5D37 /* NetworkManager.swift */,
-				926F28C220E1D3E500690EA2 /* Photo.swift */,
 			);
 			path = "Example Windless";
 			sourceTree = "<group>";

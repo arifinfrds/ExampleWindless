@@ -24,7 +24,6 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -69,7 +68,6 @@ class ViewController: UIViewController {
                 return
             }
             self?.updateUI(photo: photo)
-            
         }
     }
     
