@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		926F28C320E1D3E500690EA2 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926F28C220E1D3E500690EA2 /* Photo.swift */; };
+		92B9DA8220E1CBE3001F5D37 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B9DA8120E1CBE3001F5D37 /* AppDelegate.swift */; };
+		92B9DA8420E1CBE3001F5D37 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B9DA8320E1CBE3001F5D37 /* ViewController.swift */; };
+		92B9DA8720E1CBE3001F5D37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92B9DA8520E1CBE3001F5D37 /* Main.storyboard */; };
+		92B9DA8920E1CBE4001F5D37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92B9DA8820E1CBE4001F5D37 /* Assets.xcassets */; };
+		92B9DA8C20E1CBE4001F5D37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92B9DA8A20E1CBE4001F5D37 /* LaunchScreen.storyboard */; };
+		92B9DA9420E1D2B8001F5D37 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B9DA9320E1D2B8001F5D37 /* NetworkManager.swift */; };
+		F35E000A4410218B930AC342 /* Pods_Example_Windless.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A80ECC33F1BF85D980E6BA32 /* Pods_Example_Windless.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1B4BB5119160B0B61B1B336D /* Pods-Example Windless.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example Windless.release.xcconfig"; path = "Pods/Target Support Files/Pods-Example Windless/Pods-Example Windless.release.xcconfig"; sourceTree = "<group>"; };
+		748EFD304C091620AFE85886 /* Pods-Example Windless.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example Windless.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Example Windless/Pods-Example Windless.debug.xcconfig"; sourceTree = "<group>"; };
+		926F28C220E1D3E500690EA2 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		92B9DA7E20E1CBE3001F5D37 /* Example Windless.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Example Windless.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92B9DA8120E1CBE3001F5D37 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		92B9DA8320E1CBE3001F5D37 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		92B9DA8620E1CBE3001F5D37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		92B9DA8820E1CBE4001F5D37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		92B9DA8B20E1CBE4001F5D37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		92B9DA8D20E1CBE4001F5D37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92B9DA9320E1D2B8001F5D37 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		A80ECC33F1BF85D980E6BA32 /* Pods_Example_Windless.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Example_Windless.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92B9DA7B20E1CBE3001F5D37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F35E000A4410218B930AC342 /* Pods_Example_Windless.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7686781444461BEA245EBB95 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A80ECC33F1BF85D980E6BA32 /* Pods_Example_Windless.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		92B9DA7520E1CBE3001F5D37 = {
+			isa = PBXGroup;
+			children = (
+				92B9DA8020E1CBE3001F5D37 /* Example Windless */,
+				92B9DA7F20E1CBE3001F5D37 /* Products */,
+				EF7A1FD2D19AA3E83D8B56A2 /* Pods */,
+				7686781444461BEA245EBB95 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		92B9DA7F20E1CBE3001F5D37 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92B9DA7E20E1CBE3001F5D37 /* Example Windless.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92B9DA8020E1CBE3001F5D37 /* Example Windless */ = {
+			isa = PBXGroup;
+			children = (
+				92B9DA8120E1CBE3001F5D37 /* AppDelegate.swift */,
+				92B9DA8320E1CBE3001F5D37 /* ViewController.swift */,
+				92B9DA8520E1CBE3001F5D37 /* Main.storyboard */,
+				92B9DA8820E1CBE4001F5D37 /* Assets.xcassets */,
+				92B9DA8A20E1CBE4001F5D37 /* LaunchScreen.storyboard */,
+				92B9DA8D20E1CBE4001F5D37 /* Info.plist */,
+				92B9DA9320E1D2B8001F5D37 /* NetworkManager.swift */,
+				926F28C220E1D3E500690EA2 /* Photo.swift */,
+			);
+			path = "Example Windless";
+			sourceTree = "<group>";
+		};
+		EF7A1FD2D19AA3E83D8B56A2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				748EFD304C091620AFE85886 /* Pods-Example Windless.debug.xcconfig */,
+				1B4BB5119160B0B61B1B336D /* Pods-Example Windless.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92B9DA7D20E1CBE3001F5D37 /* Example Windless */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92B9DA9020E1CBE4001F5D37 /* Build configuration list for PBXNativeTarget "Example Windless" */;
+			buildPhases = (
+				EB2F7F14D8E6A7987D2D12DD /* [CP] Check Pods Manifest.lock */,
+				92B9DA7A20E1CBE3001F5D37 /* Sources */,
+				92B9DA7B20E1CBE3001F5D37 /* Frameworks */,
+				92B9DA7C20E1CBE3001F5D37 /* Resources */,
+				3A496110C4ECA32416580A24 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Example Windless";
+			productName = "Example Windless";
+			productReference = 92B9DA7E20E1CBE3001F5D37 /* Example Windless.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92B9DA7620E1CBE3001F5D37 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Arifin Firdaus";
+				TargetAttributes = {
+					92B9DA7D20E1CBE3001F5D37 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 92B9DA7920E1CBE3001F5D37 /* Build configuration list for PBXProject "Example Windless" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 92B9DA7520E1CBE3001F5D37;
+			productRefGroup = 92B9DA7F20E1CBE3001F5D37 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92B9DA7D20E1CBE3001F5D37 /* Example Windless */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92B9DA7C20E1CBE3001F5D37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92B9DA8C20E1CBE4001F5D37 /* LaunchScreen.storyboard in Resources */,
+				92B9DA8920E1CBE4001F5D37 /* Assets.xcassets in Resources */,
+				92B9DA8720E1CBE3001F5D37 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3A496110C4ECA32416580A24 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Example Windless/Pods-Example Windless-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/Windless/Windless.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Windless.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Example Windless/Pods-Example Windless-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB2F7F14D8E6A7987D2D12DD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Example Windless-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92B9DA7A20E1CBE3001F5D37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				926F28C320E1D3E500690EA2 /* Photo.swift in Sources */,
+				92B9DA8420E1CBE3001F5D37 /* ViewController.swift in Sources */,
+				92B9DA9420E1D2B8001F5D37 /* NetworkManager.swift in Sources */,
+				92B9DA8220E1CBE3001F5D37 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		92B9DA8520E1CBE3001F5D37 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92B9DA8620E1CBE3001F5D37 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		92B9DA8A20E1CBE4001F5D37 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92B9DA8B20E1CBE4001F5D37 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		92B9DA8E20E1CBE4001F5D37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		92B9DA8F20E1CBE4001F5D37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92B9DA9120E1CBE4001F5D37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 748EFD304C091620AFE85886 /* Pods-Example Windless.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V6T249GHKX;
+				INFOPLIST_FILE = "Example Windless/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arifinfrds.Example-Windless";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		92B9DA9220E1CBE4001F5D37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B4BB5119160B0B61B1B336D /* Pods-Example Windless.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V6T249GHKX;
+				INFOPLIST_FILE = "Example Windless/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arifinfrds.Example-Windless";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92B9DA7920E1CBE3001F5D37 /* Build configuration list for PBXProject "Example Windless" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92B9DA8E20E1CBE4001F5D37 /* Debug */,
+				92B9DA8F20E1CBE4001F5D37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92B9DA9020E1CBE4001F5D37 /* Build configuration list for PBXNativeTarget "Example Windless" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92B9DA9120E1CBE4001F5D37 /* Debug */,
+				92B9DA9220E1CBE4001F5D37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92B9DA7620E1CBE3001F5D37 /* Project object */;
+}

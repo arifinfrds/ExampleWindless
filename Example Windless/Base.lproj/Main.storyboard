@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Example_Windless" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="UP8-tr-kgJ">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="260"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="260" id="Jt7-Pf-MqX"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IEV-B9-ygi">
+                                <rect key="frame" x="16" y="268" width="343" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="rph-ua-5dd"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="42"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Subtitle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MVA-nC-nC7">
+                                <rect key="frame" x="16" y="326" width="343" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="24" id="0Vl-VT-O83"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="UP8-tr-kgJ" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="AHT-jr-dhg"/>
+                            <constraint firstItem="IEV-B9-ygi" firstAttribute="top" secondItem="UP8-tr-kgJ" secondAttribute="bottom" constant="8" id="F9Z-6u-sQ9"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="MVA-nC-nC7" secondAttribute="trailing" constant="16" id="JWc-hI-N8v"/>
+                            <constraint firstItem="MVA-nC-nC7" firstAttribute="top" secondItem="IEV-B9-ygi" secondAttribute="bottom" constant="8" symbolic="YES" id="Ozd-tM-czj"/>
+                            <constraint firstItem="UP8-tr-kgJ" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="RmF-PY-Sct"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="IEV-B9-ygi" secondAttribute="trailing" constant="16" id="UYF-yM-7bM"/>
+                            <constraint firstItem="MVA-nC-nC7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="VmE-I9-zFW"/>
+                            <constraint firstItem="UP8-tr-kgJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Ydd-px-v2f"/>
+                            <constraint firstItem="IEV-B9-ygi" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="gFB-Ad-kcq"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="headerImageView" destination="UP8-tr-kgJ" id="few-Zs-PIm"/>
+                        <outlet property="subtitleLabel" destination="MVA-nC-nC7" id="isu-ZE-8uP"/>
+                        <outlet property="titleLabel" destination="IEV-B9-ygi" id="kGc-nC-KLJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="118.29085457271366"/>
+        </scene>
+    </scenes>
+</document>

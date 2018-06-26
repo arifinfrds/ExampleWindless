@@ -1,0 +1,26 @@
+PODS:
+  - Alamofire (4.7.2)
+  - SDWebImage (4.4.1):
+    - SDWebImage/Core (= 4.4.1)
+  - SDWebImage/Core (4.4.1)
+  - Windless (0.1.5)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.7)
+  - SDWebImage (~> 4.0)
+  - Windless (~> 0.1.5)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - SDWebImage
+    - Windless
+
+SPEC CHECKSUMS:
+  Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
+  SDWebImage: 47e9b5b925cbce75946c23f0c42dd19464189af4
+  Windless: c6b7d63ac3a0c7e6b241e316650d4605abf71894
+
+PODFILE CHECKSUM: e9212c1da6a7b8d5becd742ef628b4beb8f198a8
+
+COCOAPODS: 1.5.3
